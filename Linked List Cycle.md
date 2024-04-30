@@ -7,6 +7,7 @@
 - setの実装が気になってclangのソース見に行ったらtemplateまみれで何書いてあるのか全くわからず断念…
   - 実装は二分木らしい、アルゴリズムイントロダクションに書いてあるので今度読む
 - 要素数0の配列のケースで一敗。 こういうケースが来ることを予期してなかった、これからは注意する
+  - 一敗のときはwhileの条件式中でnextだけをチェックしてしまった、そもそも見るノード!=nullでOK。
 
 ##### Complexity
 ノードの数Nに対して、
@@ -20,9 +21,6 @@ public:
       set<ListNode *> passed_node;
       ListNode *checking_node = head;
 
-      if (checking_node == nullptr) {
-        return false;
-      }
       while (checking_node != nullptr) {
         if (passed_node.count(checking_node)) {
           return true;
