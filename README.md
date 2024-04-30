@@ -14,7 +14,7 @@
 - Valid Parentheses
 - Reverse Linked List
 
-- Heap, PriorityQueue
+### Heap, PriorityQueue
 - Kth Largest Element in a Stream
 - Top K Frequent Elements
 - Find K Pairs with Smallest Sums
