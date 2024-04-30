@@ -41,6 +41,11 @@ public:
 - 1段階目ではwhileより前に一度ポインタを動かす実装だったが、その分if文が増えたのでwhile文中で動かすようにした
 - while文中のfastは1つ先さえnullptrじゃなければ、->nextでエラーならないのでOK。1段階目では2個先までチェックしてしまった。
 
+##### Complexity
+ノードの数Nに対して、
+- Time O(N)  
+- Space O(1)  
+
 ```C++
 class Solution {
 public:
