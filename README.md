@@ -4,11 +4,11 @@
 
 ### LinkedList
 
-- Linked List Cycle
-- Linked List Cycle II
-- Remove Duplicates from Sorted List
-- Remove Duplicates from Sorted List II
-- Add Two Numbers
+- [Linked List Cycle](https://github.com/konnysh/leetcode/pull/1)
+- [Linked List Cycle II](https://github.com/konnysh/leetcode/pull/3)
+- [Remove Duplicates from Sorted List](https://github.com/konnysh/leetcode/pull/4)
+- [Remove Duplicates from Sorted List II](https://github.com/konnysh/leetcode/pull/5)
+- [Add Two Numbers](https://github.com/konnysh/leetcode/pull/2)
 
 ### Stack
 - Valid Parentheses
