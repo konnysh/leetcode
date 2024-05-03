@@ -87,7 +87,3 @@
 - Next Permutation
 - String to Integer (atoi)
 - ZigZag Conversion
-
-## neetcode75
-
-## neetcode150
